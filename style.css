@@ -2,9 +2,11 @@ header {
     color: blue;
 }
 .topnav {
+    display: flex;
+    justify-content: flex-end;
     background-color: #333;
     overflow: hidden;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
 .topnav a {
     float: right;
@@ -13,6 +15,7 @@ header {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+    justify-content: right;
   }
 .topnav a:hover {
     background-color: #ddd;
@@ -24,6 +27,9 @@ header {
     text-decoration: underline;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     flex-wrap: wrap;
+}
+work {
+  flex-shrink: 10;
 }
 p {
   margin-left: 10%;
@@ -41,4 +47,9 @@ p {
 h2 {
   width: 15%;
   text-align: end;
+}
+@media screen and (max-width: 838px) {
+  .topnav, .aboutme, .contactme, .resume, .work {
+    flex-direction: column;
+  }
 }
