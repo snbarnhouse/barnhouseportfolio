@@ -3,7 +3,7 @@
 
 https://snbarnhouse.github.io/barnhouseportfolio/
 
-###Stephanie's Portfolio
+### Stephanie's Portfolio
 
 Portfolio done using html, css, and flexbox. 
 
